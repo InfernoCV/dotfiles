@@ -1,0 +1,10 @@
+[user]
+	name = InfernoCV
+	email = 29135948+InfernoCV@users.noreply.github.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHdaj7U1VuLtcIgfjJHQWpaOnUZxiYS5wpoGDu0IWtJ7
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /opt/1Password/op-ssh-sign
+[commit]
+	gpgsign = true
